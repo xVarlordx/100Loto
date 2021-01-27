@@ -1,0 +1,21 @@
+.showResult {
+  border: 1px solid #DDDDDD;
+  border-radius: 40px;
+  padding: 13px 21px 13px 26px;
+  margin-top: 23px;
+  margin-left: 59px;
+  outline: none;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: black;
+  background: #fff;
+
+  &:hover {
+    background: #DDDDDD;
+  }
+}

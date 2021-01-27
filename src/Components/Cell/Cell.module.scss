@@ -1,0 +1,23 @@
+.Cell {
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 39px;
+  height: 39px;
+  text-align: center;
+  padding: 12px 0 8px 0;
+  cursor: pointer;
+  margin: 0;
+  
+  &:active {
+    background-color: #FFD205;
+  }
+}
+
+.isSelected {
+  background-color: #FFD205;
+}
+
+.Nope {
+  background-color: #B06AB3;
+}
